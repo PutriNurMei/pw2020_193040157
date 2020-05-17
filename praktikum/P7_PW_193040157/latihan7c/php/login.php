@@ -55,7 +55,11 @@ if (isset($_POST['submit'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Login</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -68,7 +72,7 @@ if (isset($_POST['submit'])) {
       <tr>
         <td><label for="username">Username</label></td>
         <td>:</td>
-        <td><input type="text" name="username"></td>
+        <td><input class="username" type="text" name="username"></td>
       </tr>
       <tr>
         <td><label for="password">Password</label></td>
